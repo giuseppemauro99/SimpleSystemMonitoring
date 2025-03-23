@@ -1,5 +1,9 @@
 # Simple System Monitoring
 
+This repo is running on my raspberry pi 4 for monitoring the entire system (memory, cpu, disk usage, ecc...)
+
+## Usage
+
 start the server (prometheus + grafana): ```docker-compose up -d --build```
 
 start the client to register the information (installa package in venv):
