@@ -21,4 +21,6 @@ python collector.py
 ```
 
 
-navigate to http://localhost:7974/ and configure grafana using the influxdb credentials in the docker-compose
+navigate to http://localhost:7974/ and configure grafana using influxdb as data source (the url to set in grafana is ```http://simplesystemmonitoring-influxdb:8086``` and the credentials are in the docker-compose). 
+
+Then you can setup you own dashboard
