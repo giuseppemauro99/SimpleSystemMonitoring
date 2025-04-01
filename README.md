@@ -18,6 +18,11 @@ pip install influxdb
 pip install psutil
 
 python collector.py
+
+# OR to run in background
+nohup python collector.py >/dev/null 2>&1 &
+
+# to verify that the script is runnign ps ax | grep *.py
 ```
 
 
